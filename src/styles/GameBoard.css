@@ -1,0 +1,7 @@
+.game-board {
+    height: 650px;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

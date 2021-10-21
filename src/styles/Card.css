@@ -1,0 +1,32 @@
+.card-container {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid; */
+    border-radius: 5px;
+    border-width: 2px;
+
+    transition-property: width, height;
+    transition-duration: .1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card:hover {
+    width:150px;
+    height: 150px;;
+}
+
+.square , .circle {
+    /* border-style: solid; */
+}
+

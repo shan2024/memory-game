@@ -1,0 +1,23 @@
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat,sans-serrif;
+}
+
+.score-board h2 {
+    background-color: rgba(237, 250, 61, .2);
+    border-radius: 20px;
+    width:10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid; */
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#best-score {
+    background-color: rgba(87, 248, 72,.2);
+}

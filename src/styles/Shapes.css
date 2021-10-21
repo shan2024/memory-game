@@ -1,0 +1,37 @@
+/* .triangle{
+    height:30%;
+    width:35%;
+    background-color: black;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+}
+
+.inner-triangle {
+    position: relative;
+    height:85%;
+    width:85%;
+    top:7%;
+    left:7%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
+
+.triangle {
+    position: relative;
+    height:30%;
+    width:35%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} 
+
+.square {
+    height: 25%;
+    width: 25%;
+    border-width: 2px;
+
+}
+
+.circle {
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    border-width: 2px;
+}
